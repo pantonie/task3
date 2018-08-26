@@ -1,7 +1,7 @@
 'use strict';
 
 const expect = require('chai').expect;
-const rates = require('../rates').genRates;
+const rates = require('../src/rates').genRates;
 const input = require('./data/input').data;
 const hard_input = require('./data/hard_input').data;
 

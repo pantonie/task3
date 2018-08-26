@@ -343,7 +343,15 @@ exports.data = {
             "name": "Термостат",
             "power": 50,
             "duration": 24
+        },{
+            "id": "WM",
+            "name": "Посудомоечная машина",
+            "power": 50,
+            "duration": 10,
+            "mode": "night"
         },
+
+
     ],
     "rates": [
         {
