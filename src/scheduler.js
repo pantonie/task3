@@ -2,7 +2,6 @@ exports.scheduler = function (input) {
     const rates = require('./rates').genRates;
     const genVariations = require('./variations').variations;
     const searchOptimal = require('./searchOptimal').optimal;
-    //const searchOpt = require('./searchOptimal').optimal;
     const output = require('./composeOutput').out;
 
     var sequences = [], //массив для хранения всех возможных вариантов включения всех приборов, кроме работающих 24 часа

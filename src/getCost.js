@@ -19,4 +19,4 @@ exports.getcost = function (arr, h24, price, maxPower) {
         money += (a[i] ? a[i] : 0) * price[i];
     }
     return money;
-}
+};

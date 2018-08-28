@@ -2,7 +2,7 @@
 //на вход пдаются массив приборов, которые работают 24 часа, массив приборов остальных приборов со схемой , которые
 exports.out = function(arr24, comb, cost, prices){
     const template = require('./outTmpl').tmpl;
-    //console.log(comb);
+
     if (prices.length == 0){
         throw Error('prices could not be empty');
     }

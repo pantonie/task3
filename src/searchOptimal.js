@@ -11,8 +11,7 @@ exports.optimal = function(arrs, h24, prices, maxPower){
     const getCost = require('./getCost').getcost;
     var arr = [],
         max = arrs.length-1,
-        money = '',
-        optArr = [];
+        money = '';
 
 
     function recursion(r, i){
@@ -34,7 +33,6 @@ exports.optimal = function(arrs, h24, prices, maxPower){
                         }
                     }
                 }
-                //arr.push(a)
             } else {
                 recursion(a, i+1)
             }
